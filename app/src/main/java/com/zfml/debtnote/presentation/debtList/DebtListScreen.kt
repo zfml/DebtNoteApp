@@ -1,5 +1,6 @@
 package com.zfml.debtnote.presentation.debtList
 
+import androidx.compose.animation.AnimatedVisibility
 import androidx.compose.foundation.ExperimentalFoundationApi
 import androidx.compose.foundation.gestures.scrollable
 import androidx.compose.foundation.layout.Box
@@ -107,25 +108,29 @@ fun DebtListContent(
         Column(
             modifier = Modifier.fillMaxSize()
         ) {
-            LazyColumn() {
-                uiState.debts.forEach { key, debts ->
-                    stickyHeader(key = key) {
-                        DebtHeader(headerName = key)
-                    }
-                    item {
-                        DebtTotal(debts = debts)
-                    }
-                    items(
-                        items = debts,
-                    ) { debt ->
-                        DebtItem(
-                            debt = debt,
-                            onDelete = onDelete,
-                            onEdit = onEdit
-                        )
+
+            AnimatedVisibility(visible = uiState.debts.isNotEmpty()) {
+                LazyColumn() {
+                    uiState.debts.forEach { key, debts ->
+                        stickyHeader(key = key) {
+                            DebtHeader(headerName = key)
+                        }
+                        item {
+                            DebtTotal(debts = debts)
+                        }
+                        items(
+                            items = debts,
+                        ) { debt ->
+                            DebtItem(
+                                debt = debt,
+                                onDelete = onDelete,
+                                onEdit = onEdit
+                            )
+                        }
                     }
                 }
             }
+
         }
     } else {
         Box(

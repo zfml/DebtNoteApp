@@ -1,4 +1,4 @@
-package com.zfml.debtnote
+package com.zfml.debtnote.presentation
 
 import android.os.Bundle
 import androidx.activity.ComponentActivity
