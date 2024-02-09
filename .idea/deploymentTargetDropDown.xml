@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="deploymentTargetDropDown">
+    <value>
+      <entry key="AddEditDebtContentPreview">
+        <State />
+      </entry>
+      <entry key="DebtItemPreview">
+        <State />
+      </entry>
+      <entry key="DebtsListTopAppBarPreview">
+        <State />
+      </entry>
+      <entry key="DropNameListTextFieldPreview">
+        <State />
+      </entry>
+      <entry key="app">
+        <State>
+          <targetSelectedWithDropDown>
+            <Target>
+              <type value="QUICK_BOOT_TARGET" />
+              <deviceKey>
+                <Key>
+                  <type value="VIRTUAL_DEVICE_PATH" />
+                  <value value="$USER_HOME$/.android/avd/Resizable_Experimental_API_34.avd" />
+                </Key>
+              </deviceKey>
+            </Target>
+          </targetSelectedWithDropDown>
+          <timeTargetWasSelectedWithDropDown value="2024-02-08T05:31:36.538411Z" />
+        </State>
+      </entry>
+    </value>
+  </component>
+</project>

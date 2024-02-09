@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Debt Note</string>
+    <string name="icon_filter">Icon Filter</string>
+    <string name="back_icon">Back Icon</string>
+
+    <string name="no_debts">No Debts</string>
+
+    <string name="place_holder_name">Name</string>
+    <string name="place_holder_amount">Enter Amount</string>
+    <string name="place_holder_description">Enter Description (Optional)</string>
+    <string name="date_range_icon">date range Icon</string>
+    <string name="add_icon">Add Icon</string>
+    <string name="done_icon">Done Icon</string>
+
+
+</resources>
