@@ -152,6 +152,9 @@ fun DebtListSearchTopAppBar(
                 Text(text = "Search With Name")
              },
              modifier = Modifier.fillMaxWidth(),
+             leadingIcon = {
+                Icon(imageVector = Icons.Default.Search, contentDescription = "Search Icon")
+             },
              trailingIcon = {
                  IconButton(onClick = onClear) {
                      Icon(imageVector = Icons.Default.Clear, contentDescription = "Clear Icon")

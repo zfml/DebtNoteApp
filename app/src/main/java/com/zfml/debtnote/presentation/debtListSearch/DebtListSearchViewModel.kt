@@ -50,7 +50,6 @@ class DebtListSearchViewModel @Inject constructor(
         }
     }
 
-
     private fun deleteDebt(debtId: Int) {
         viewModelScope.launch {
             debtRepository.deleteDebt(debtId)

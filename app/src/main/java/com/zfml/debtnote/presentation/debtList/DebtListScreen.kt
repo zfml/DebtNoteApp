@@ -68,7 +68,6 @@ fun DebtListScreen(
         floatingActionButton = {
             FloatingActionButton(
                 modifier = Modifier
-                    .clip(CircleShape)
                 ,
                 onClick = {
                 navigator.navigate(AddEditDebtScreenDestination(-1))
@@ -100,9 +99,6 @@ fun DebtListContent(
     onDelete: (Int) -> Unit,
     onEdit: (Int) -> Unit,
 ) {
-
-
-
 
     if (uiState.debts.isNotEmpty()) {
         Column(
