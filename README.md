@@ -1,6 +1,6 @@
 # 📒 Debt Note
 
-Debt Note is a simple and modern Android app built with Kotlin and Jetpack Compose that helps you track debts—whether you owe someone or someone owes you. Easily add, search, and manage transactions with names, amounts, and due dates.
+Debt Note is a simple and modern Android app built with Kotlin and Jetpack Compose that helps you track debts—whether you owe someone or someone owes you. Easily add, search, and manage transactions with names, amounts.
 
 ## ✨ Features
 
