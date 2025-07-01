@@ -1,6 +1,13 @@
-## Debt Note App
-## About
-### We can save debts easily and filter and search debts by Name, Date and Debt Type
+# 📒 Debt Note
+
+Debt Note is a simple and modern Android app built with Kotlin and Jetpack Compose that helps you track debts—whether you owe someone or someone owes you. Easily add, search, and manage transactions with names, amounts, and due dates.
+
+## ✨ Features
+
+- 🔍 **Search by Name** — Quickly find people you owe or who owe you.
+- ➕ **Add Debt or Credit** — Add entries with name, amount, date, and type (Get or Pay).
+- 📚 **Debt History** — View all debt records in a clean, scrollable list.
+- ♻️ **Reactive UI** — Built using modern StateFlow for real-time updates.
 ## Buil With 
 - Hilt Dependency Injection
 - Room
